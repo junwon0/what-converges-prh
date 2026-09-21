@@ -1,0 +1,28 @@
+# CUDA 11.8 PyTorch wheels
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+
+# Numerical / scientific computing
+numpy==2.4.6
+scipy==1.17.1
+
+# Model and dataset loading
+timm==0.9.16
+transformers==5.12.1
+datasets==5.0.0
+huggingface_hub==1.19.0
+tokenizers==0.22.2
+safetensors==0.8.0
+sentencepiece==0.2.1
+protobuf==7.35.1
+
+# Video / image processing
+decord==0.6.0
+opencv-python==4.13.0.92
+pillow==12.2.0
+
+# Experiment utilities and plotting
+tqdm==4.68.3
+loguru==0.7.3
+matplotlib==3.11.0
